@@ -48,7 +48,7 @@ namespace Day2Assignment3.DataAccess.Concretes
             }
             else
             {
-                throw new Exception($"Course with ID {instructor.InstructorId} not found.");
+                throw new Exception($"Instructor with ID {instructor.InstructorId} not found.");
             }
         }
     }

@@ -44,7 +44,7 @@ namespace Day2Assignment3.DataAccess.Concretes
             }
             else
             {
-                throw new Exception($"Course with ID {category.CategoryId} not found.");
+                throw new Exception($"Category with ID {category.CategoryId} not found.");
             }
         }
     }
